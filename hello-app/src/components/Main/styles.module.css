@@ -1,0 +1,37 @@
+.mainContainer{
+    background-color: #1F2535;
+    color: white;
+    height: 780px;
+}
+
+.mainInner{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 50px;
+}
+
+.mainInner h1{
+    font-family: sans-serif;
+    font-size: 100px;
+    margin: 10px 0;
+}
+
+.mainInner p{
+    font-size: 30px;
+    font-weight: 200px;
+    color: rgb(179, 171, 171);
+}
+
+.mainInner button{
+    margin: 20px 0;
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
